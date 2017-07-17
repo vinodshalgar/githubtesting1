@@ -16,6 +16,10 @@ class Employee extends Person {
     public getElevatorPitch() {
         return `Hello, my name is ${this.name} and I work in ${this.department}.`;
     }
+
+    public getElevatorPitch1() {
+        return `Hello, my name is ${this.name} and I work in ${this.department}.`;
+    }
 }
 
 let howard = new Employee("Howard", "Sales");
